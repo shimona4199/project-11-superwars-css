@@ -1,4 +1,28 @@
 .footer{
-  margin-left : 80px;
+  margin-left : 120px;
+  margin-top: 20px;
   font-size : 18px;
+}
+.container{
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr .5fr 1fr;
+  justify-items:center;
+}
+
+.heros, .villians{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5em;
+}
+
+.heros > div, .villians > div{
+  border-radius: 10px;
+  box-shadow: .5px .5px 5px 1px #555;
+  text-align: center;
+}
+
+.score{
+  font-size:3em;
+  margin: 0px;
 }
